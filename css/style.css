@@ -108,8 +108,7 @@ height: 100%;
 line-height: 170%;
 }
 
-body {
-}
+
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 display: block;
@@ -1150,8 +1149,7 @@ justify-content: flex-start;
 padding: 0 25px 25px 0;
 }
 
-.fullpage__menu__item {
-}
+
 
 .fullpage__menu__item:nth-child(1) {
 -webkit-transform: translateY(0%);
@@ -1185,8 +1183,7 @@ opacity: 0;
         transform: none;
 }
 
-#fullpage__menu.is-active {
-}
+
 
 #fullpage__menu.is-active .fullpage__menu__item {
 box-shadow: 0.5em 0.5em 1em rgba(0, 0, 0, 0.15);
@@ -2443,10 +2440,14 @@ background-color: #fff;
 h1.hero-home.hero-home-2,
 h1.h1-2,
 .countdown.countdown-2 h3 {
-font-family: 'Montserrat', sans-serif;
-font-weight: 900;
-text-transform: uppercase;
+  background: -webkit-linear-gradient(#99D6EA, #FABBCB);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
 }
+
 
 @media only screen and (max-width: 995px) {
   #twitter-wrap {
