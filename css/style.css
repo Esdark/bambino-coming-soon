@@ -61,28 +61,6 @@
 background-image: url(../img/background/hero-bg-1.jpg);
 }
 
-.section2 .section-image-bg,
-.bg-img-2 {
-background-image: url(../img/background/hero-bg-2.jpg);
-}
-
-.section3 .section-image-bg,
-.bg-img-3 {
-background-image: url(../img/background/hero-bg-3.jpg);
-}
-
-.section4 .section-image-bg,
-.bg-img-4 {
-background-image: url(../img/background/hero-bg-4.jpg);
-}
-
-
-/* 1.2. section video IMG BACKGROUND */
-.section1 .section-image-bg-video {
-background-image: url(../img/background/video-BG.jpg);
-display: none;
-z-index: 10;
-}
 
 @media only screen and (max-width: 995px) {
   .section1 .section-image-bg-video {
